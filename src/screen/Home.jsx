@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import io from "socket.io-client";
 
 // export const serverRoute = "http://localhost:8080";
-export const serverRoute = "https://tawtheq-se.onrender.com";
+export const serverRoute = "https://taw-se-production.up.railway.app";
 export const socket = io(serverRoute);
 
 const Home = () => {
